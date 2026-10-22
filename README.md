@@ -10,17 +10,18 @@ A little swipe. A big reaction. A free comic arcade game with a custom photo-ins
 - Settings: immediate mute, volume, reduced motion. Tab switching pauses the game.
 - Results include accuracy, hardest slap, best combo, and a downloadable PNG score card.
 - Version 1.1: clearer, longer “aaah” voice reactions; repeated hits build springy googly eyes and dizzy stars that settle during a break.
+- Version 1.2: a shaded animated hand follows swipes, visibly makes contact, and pulls away; keyboard slaps include a wind-up pose.
 
 `index.html` is the complete self-contained game: all artwork, sounds, CSS, and JavaScript are embedded. It needs no backend, installation, API key, or paid service, and also works when downloaded and opened in a modern browser.
 
 ## Editable source
 
-Download and extract **[slap-game-source.zip](./slap-game-source.zip)** for the modular HTML/CSS/JavaScript source, 41 automated tests, local server instructions, licenses, and artwork metadata. No dependencies need to be installed for `npm test`.
+Download and extract **[slap-game-source.zip](./slap-game-source.zip)** for the modular HTML/CSS/JavaScript source, 52 automated tests, local server instructions, licenses, and artwork metadata. No dependencies need to be installed for `npm test`.
 
 Scores and preferences stay in each player's browser. Practice does not overwrite the arcade record. There is no online leaderboard.
 
 ## Credits
 
-The comic character was created from a user-supplied reference using the built-in image generation tool. The source photo is not distributed. See [ARTWORK.md](./ARTWORK.md) and [PROMPT.txt](./PROMPT.txt).
+The comic character was created from a user-supplied reference using the built-in image generation tool. The source photo is not distributed. See [ARTWORK.md](./ARTWORK.md) and [PROMPT.txt](./PROMPT.txt). The hand sprite was generated separately; its artwork metadata and exact prompt are included in the source ZIP under `assets/hand/`.
 
-Voice reactions by EmoPreben and impact sounds by Kenney are CC0. These are prerecorded effects, not the pictured person's voice. See [CREDITS.md](./CREDITS.md), [CC0-1.0.txt](./CC0-1.0.txt), and the source ZIP for the full file mapping and original license notice.
+Voice reactions by JohnsonBrandEditing and impact sounds by Kenney are CC0. These are prerecorded effects, not the pictured person's voice. See [CREDITS.md](./CREDITS.md), [CC0-1.0.txt](./CC0-1.0.txt), and the source ZIP for the full file mapping and original license notice.
