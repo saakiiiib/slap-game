@@ -1,0 +1,18 @@
+Voice reactions: human male scream multi
+Author: JohnsonBrandEditing
+Published: January 12, 2013
+Original and license: https://freesound.org/people/JohnsonBrandEditing/sounds/173944/
+License: Creative Commons 0 (CC0 1.0 Universal)
+https://creativecommons.org/publicdomain/zero/1.0/
+The full CC0 legal text is included in CC0-1.0.txt.
+
+Excerpts obtained from the Aargh! (male screams) archive assembled by
+congusbongus: https://opengameart.org/content/aargh-male-screams
+The archive's original aargh.txt maps recordings 3-7 to the CC0 work above.
+This game uses aargh3.ogg, aargh4.ogg, and aargh6.ogg only.
+No recordings 0-2 (which have a different license) are included.
+
+Modifications: mono 48 kHz PCM WAV conversion, DC offset removal,
+level balancing with soft saturation and peak headroom, boundary fades;
+aargh3 was cropped to 0.45 s. Runtime pitch variation is also applied.
+These generic effects do not depict or clone the pictured person's voice.

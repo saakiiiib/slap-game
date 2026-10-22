@@ -2,15 +2,19 @@
 
 ## Voice reactions
 
-Lasse Bührmann, a.k.a. **EmoPreben** — *Pain sounds by EmoPreben*, fixed version (2021), released under **CC0 1.0 Universal**.
+**JohnsonBrandEditing** — *human male scream multi* (2013), released by the original uploader under **CC0 1.0 Universal**.
 
-Source: https://opengameart.org/content/pain-sounds-by-emopreben
+Original recording and license: https://freesound.org/people/JohnsonBrandEditing/sounds/173944/
+
+Extracted copies were obtained from *Aargh! (male screams)*, assembled by **congusbongus**: https://opengameart.org/content/aargh-male-screams
+
+That archive contains works under different licenses. Its `aargh.txt` explicitly maps only `aargh3.ogg` through `aargh7.ogg` to JohnsonBrandEditing's CC0 recording. This game uses only those CC0 entries; it does not include the archive's CC-BY recordings.
 
 | Game file | Original recording |
 | --- | --- |
-| `assets/audio/voice-soft.wav` | `Painsounds v2 - Track 1 - Arrrch.ogg` |
-| `assets/audio/voice-medium.wav` | `Painsounds v2 - Track 4 - Arrggh .ogg` |
-| `assets/audio/voice-hard.wav` | `Painsounds v2 - Track 3 - Huuurh.ogg` |
+| `assets/audio/voice-soft.wav` | `aargh3.ogg`, first 0.45 seconds |
+| `assets/audio/voice-medium.wav` | `aargh4.ogg`, full 0.91 seconds |
+| `assets/audio/voice-hard.wav` | `aargh6.ogg`, full 1.33 seconds |
 
 These are prerecorded vocal effects; they are not recordings or a voice clone of the pictured person.
 
@@ -28,7 +32,9 @@ Source: https://kenney.nl/assets/impact-sounds
 
 ## Audio processing and license
 
-All six clips were decoded from Ogg Vorbis to mono, 44.1 kHz, 16-bit PCM WAV; levels were adjusted to leave mixing headroom, and 4 ms boundary fades were applied. Duration was preserved. No external audio service is used at runtime.
+The three voice clips were decoded from Ogg Vorbis to mono, 48 kHz, 16-bit PCM WAV. DC offset was removed, levels were balanced with light soft saturation, peaks were limited to 0.82, and 8 ms attack / 45 ms release fades were applied. The soft clip was shortened as listed above. The impact clips remain mono, 44.1 kHz, 16-bit PCM WAV, with original durations, adjusted levels, and 4 ms boundary fades.
+
+Runtime playback varies vocal pitch slightly and uses longer recordings for stronger or repeated hits. Reactions crossfade for 35 ms, with at most two voices and two impacts active; a compressor and output ceiling control peaks. No external audio service is used at runtime.
 
 CC0 permits copying, modifying, and distributing these sounds, including in commercial games, without a paid license. Attribution is provided here as a courtesy.
 

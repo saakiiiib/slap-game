@@ -23,4 +23,6 @@ The supplied PNG is **1278 × 1230 pixels, RGBA**, with genuine alpha transparen
 
 The rendering code selects a cell, adds directional movement and temporary cheek blush, then returns to neutral. Cheek and face geometry is defined in `character.js` at the project root. No image service or AI request is used during gameplay.
 
+Version 1.1 adds canvas-drawn comic eye overlays on the surprised sprite. Repeated hits build the eye extension and dizzy stars; elapsed time restores the expression. The original raster artwork is unchanged. Eye sockets are configured in `character.js`; `reactions.js` renders the animation and supports a static reduced-motion variant.
+
 This artwork is separate from the third-party CC0 audio licenses described in the project's `CREDITS.md`. The original photograph is not relicensed by this notice.
