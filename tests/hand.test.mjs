@@ -6,7 +6,7 @@ const hit = { x: 247, y: 260, direction: 1, power: 0.8 };
 
 test('the hand starts absent and uses the bundled dorsal-view artwork', () => {
   assert.equal(new HandAnimator().pose(0), null);
-  assert.equal(HAND_ASSET, './assets/hand/slapping-hand-v2.png');
+  assert.equal(HAND_ASSET, './assets/hand/slapping-hand-v2.webp');
   assert.equal(HAND_CONTACT_MS, 100);
 });
 
