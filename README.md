@@ -63,8 +63,10 @@ Relative asset paths support project URLs. `.nojekyll` lets Pages serve the supp
 
 Publishing through the GitHub website works independently of GitHub CLI authentication. This source folder can also be uploaded unchanged to your own Pages repository.
 
-## Tests and credits
+## Tests, license, and credits
 
-With Node.js installed, run `npm test` in this folder. No dependency installation is required. The tests cover game rules and gesture geometry; check touch, sound, artwork, and downloads in a browser too.
+With Node.js 20+ installed, run `npm test` in this folder (69 tests run automatically via GitHub Actions CI on push and pull requests, with zero dependencies to install). Images and sound effects are bundled locally as optimized WebP and MP3 assets.
 
-See [CREDITS.md](./CREDITS.md) for the bundled CC0 audio sources and license details. Voice clips are prerecorded effects, not the pictured person's actual voice or a voice clone. See [ARTWORK.md](./assets/character/ARTWORK.md) for character artwork details. The source photograph is not bundled.
+- Source code license: [MIT](./LICENSE)
+- Third-party CC0 audio sources and notices: [CREDITS.md](./CREDITS.md) (prerecorded effects, not the pictured person's voice)
+- Character artwork details: [assets/character/ARTWORK.md](./assets/character/ARTWORK.md) (authorized stylized illustration; source photograph is not bundled)

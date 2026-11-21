@@ -8,7 +8,7 @@ export class SoundPlayer {
     this.files = Promise.all(tiers.flatMap(tier => ['impact', 'voice'].map(async kind => {
       const key = `${kind}-${tier}`;
       try {
-        const response = await fetch(new URL(`./assets/audio/${key}.wav`, import.meta.url));
+        const response = await fetch(new URL(`./assets/audio/${key}.mp3`, import.meta.url));
         if (!response.ok) throw new Error('Sound asset unavailable');
         return [key, await response.arrayBuffer()];
       } catch { return [key, null]; }

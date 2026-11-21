@@ -1,7 +1,7 @@
 /** Sprite-sheet metadata. The source photograph is intentionally not bundled. */
 export const character = {
   name: 'The Challenger',
-  image: './assets/character/expressions.png',
+  image: './assets/character/expressions.webp',
   columns: 2,
   rows: 2,
   width: 440,

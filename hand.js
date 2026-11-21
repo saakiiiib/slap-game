@@ -1,6 +1,6 @@
 /** Keep the face, sound, and score on this shared moment of visible contact. */
 export const HAND_CONTACT_MS = 100;
-export const HAND_ASSET = './assets/hand/slapping-hand-v2.png';
+export const HAND_ASSET = './assets/hand/slapping-hand-v2.webp';
 
 const clamp01 = value => Number.isFinite(value) ? Math.max(0, Math.min(1, value)) : 0;
 const finite = (value, fallback = 0) => Number.isFinite(value) ? value : fallback;

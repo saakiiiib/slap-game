@@ -12,9 +12,9 @@ That archive contains works under different licenses. Its `aargh.txt` explicitly
 
 | Game file | Original recording |
 | --- | --- |
-| `assets/audio/voice-soft.wav` | `aargh3.ogg`, first 0.45 seconds |
-| `assets/audio/voice-medium.wav` | `aargh4.ogg`, full 0.91 seconds |
-| `assets/audio/voice-hard.wav` | `aargh6.ogg`, full 1.33 seconds |
+| `assets/audio/voice-soft.mp3` | `aargh3.ogg`, first 0.45 seconds |
+| `assets/audio/voice-medium.mp3` | `aargh4.ogg`, full 0.91 seconds |
+| `assets/audio/voice-hard.mp3` | `aargh6.ogg`, full 1.33 seconds |
 
 These are prerecorded vocal effects; they are not recordings or a voice clone of the pictured person.
 
@@ -26,13 +26,13 @@ Source: https://kenney.nl/assets/impact-sounds
 
 | Game file | Original effect |
 | --- | --- |
-| `assets/audio/impact-soft.wav` | `Audio/impactSoft_medium_000.ogg` |
-| `assets/audio/impact-medium.wav` | `Audio/impactPunch_medium_001.ogg` |
-| `assets/audio/impact-hard.wav` | `Audio/impactPunch_heavy_002.ogg` |
+| `assets/audio/impact-soft.mp3` | `Audio/impactSoft_medium_000.ogg` |
+| `assets/audio/impact-medium.mp3` | `Audio/impactPunch_medium_001.ogg` |
+| `assets/audio/impact-hard.mp3` | `Audio/impactPunch_heavy_002.ogg` |
 
 ## Audio processing and license
 
-The three voice clips were decoded from Ogg Vorbis to mono, 48 kHz, 16-bit PCM WAV. DC offset was removed, levels were balanced with light soft saturation, peaks were limited to 0.82, and 8 ms attack / 45 ms release fades were applied. The soft clip was shortened as listed above. The impact clips remain mono, 44.1 kHz, 16-bit PCM WAV, with original durations, adjusted levels, and 4 ms boundary fades.
+The voice and impact clips were normalized (DC offset removed, levels balanced, peaks limited with short boundary fades) and encoded to mono MP3 for compact downloads and universal Web Audio compatibility across desktop and mobile browsers (including iOS Safari).
 
 Runtime playback varies vocal pitch slightly and uses longer recordings for stronger or repeated hits. Reactions crossfade for 35 ms, with at most two voices and two impacts active; a compressor and output ceiling control peaks. No external audio service is used at runtime.
 
@@ -40,6 +40,7 @@ CC0 permits copying, modifying, and distributing these sounds, including in comm
 
 - Official license: https://creativecommons.org/publicdomain/zero/1.0/
 - Full license text: `assets/audio/CC0-1.0.txt`
+- Voice source notice: `assets/audio/LICENSE-Voice.txt`
 - Kenney's original pack notice: `assets/audio/LICENSE-Kenney.txt`
 
-The CC0 licenses above apply to the listed third-party audio assets, not automatically to the supplied photograph, character likeness, or other project files.
+The CC0 licenses above apply to the listed third-party audio assets only; original source code is licensed under MIT (`LICENSE`) and character artwork rights are described in `assets/character/ARTWORK.md`.
